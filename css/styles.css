@@ -1,7 +1,11 @@
-.container {
+.home {
     margin: 10px auto;
-    max-width: 600px;
     text-align: center;
+}
+
+.page-content {
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .not-found {
@@ -12,16 +16,28 @@
 }
 
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
 }
 
 .no-anchor-decoration {
+    text-decoration: none;
+}
+
+.any-anchor-decoration {
     color: inherit;
     text-decoration: none;
+}
+
+.inline {
+    display: inline;
+}
+
+.no-scroll {
+    overflow-y: hidden;
 }
 
 a ~ a {

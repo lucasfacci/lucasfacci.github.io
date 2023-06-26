@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="page-content">
+    <header>
+        <h1><a href="{{ '/blog/' | prepend: site.baseurl }}" class="no-anchor-decoration">Blog</a> / {{ page.title }}</h1>
+        <p class="text-muted">{{ page.date | date: "%Y-%m-%d" }}</p>
+    </header>
+    
+    <hr>
+
+    <div>
+        {{ content }}
+    </div>
+</div>

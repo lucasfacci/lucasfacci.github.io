@@ -1,8 +1,9 @@
 title: lucasfacci.github.io
 description: >- # this means to ignore newlines until "baseurl:"
   Personal website of Lucas Facci
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lucasfacci.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 plugins:
   - jekyll-feed
+
+permalink: /blog/:year/:month/:day/:title:output_ext
